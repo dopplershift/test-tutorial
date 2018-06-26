@@ -1,0 +1,17 @@
+# After changing this file, check it on:
+#   http://lint.travis-ci.org/
+language: python
+sudo: false
+
+branches:
+  only:
+    - master
+
+python:
+  - 3.6
+
+install:
+  - true
+
+script:
+  - true
